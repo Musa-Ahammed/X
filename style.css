@@ -198,7 +198,7 @@ main{
 .greywolf{
     position: absolute;
     top: 80%;
-    left: 58%;
+    left: 56%;
     z-index: 1; /* Lower z-index = behind robot */
     font-size: 24px;
     color: gray;    
@@ -237,13 +237,29 @@ main{
     header {
         padding: 1rem 0.5rem;
     }
+    nav{
+         position: absolute;
+         top: 8%;
+         left: 36%;
+    }
     .content {
         margin-top: 85%;
     }
     .robot-3d{
-        scale: 0.8;
-        top: -20%;
-        right: 2%;
+        transform: scale(0.8);
+        height: 800px;
+        top: 10%;
+        left: 30%;
+    }
+    .greywolf{
+         position: absolute;
+         top: 60%;
+         left: 52%;
+    }
+    .maintenance{
+         position: absolute;
+         top: 93%;
+         left: 9%;
     }
 }
 
@@ -253,6 +269,7 @@ main{
     header {
         padding: 1rem 0.1em;
         position: absolute; 
+        left: 7%;
         z-index: 10;             
     }
 
@@ -270,13 +287,15 @@ main{
         margin-top: 25rem;
     }
     .robot-3d{
-        position: relative; 
-        scale: 0.35;
-        left: 30%; /* <-- Shifted more to the right */
+        /* position: relative;  */
+        
+        transform: scale(0.9);
+        height: 400px;
+        left: 39.5%; /* <-- Shifted more to the right */
         /* position: absolute; Ensure positioning works */
         /* position: relative;  or absolute/fixed */
-        position: absolute; 
-        z-index: 1000;         /* Higher z-index brings it in front */
+        /* position: absolute;  */
+            /* z-index: 1000;         Higher z-index brings it in front */
 
     }
     .content {
@@ -285,13 +304,19 @@ main{
     }
     .tag-box{
         width: 12rem;
+       
     }
     
     .content h1{
         font-size: 2.5rem;
+       
     }
     .description{
-        font-size: 1rem;
+        /* font-size: 1rem; */
+        font-size: 60%; /* 80% of the parent element's font size */
+        position: absolute;
+        top: 86%;
+        left: 9%;
     }
     .btn-get-started{
         font-size: 0.8rem;
@@ -300,5 +325,24 @@ main{
     .btn-signing-main{
         font-size: 0.8rem;
         padding: 0.8rem 2rem;
+    }
+    .greywolf{
+         position: absolute;
+         width: 50%;
+         top: 54%;
+         left: 60%;
+         /* white-space: normal; */
+    }
+    .maintenance{
+         font-size: 100%; /* 80% of the parent element's font size */
+         position: absolute;
+         top: 89%;
+         left: 0%;
+         width: 90%;           /*Responsive width*/
+         max-width: 100%;     /* Prevents overflow*/
+         white-space: normal;  /* Enables wrapping */
+         word-wrap: break-word; /* Break long words if needed */
+         /* font-size: 0.5rem; */
+         /* white-space: wrap;  */
     }
 }
