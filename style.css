@@ -135,7 +135,7 @@ main{
 
 
 .tag-box .tag:hover{
-    color: white;
+    color:white;
 }
 .content h1 {
     font-size: 4rem;
@@ -195,13 +195,31 @@ main{
 
 
 
-.pixie{
-    font-size: 1.2rem;
-    letter-spacing: 0.05em;
-    max-width: 35rem;
+.greywolf{
+    position: absolute;
+    top: 80%;
+    left: 58%;
+    z-index: 1; /* Lower z-index = behind robot */
+    font-size: 24px;
     color: gray;    
     /* padding: 2rem 44rem; */
     /* right: 20%; */
+}
+
+.maintenance{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    z-index: 1; /* Lower z-index = behind robot */
+    font-size: 3rem;
+    font-weight: 300;
+    color: gray;    
+    /* padding: 2rem 44rem; */
+    /* right: 20%; */
+    max-width: 80%;         /* Prevents text from overflowing */
+    white-space: nowrap;    /* Keeps all text on one line */
+    /* overflow: hidden;       Hides overflow if it exceeds container */
+    /* text-overflow: ellipsis;Optional: adds "..." if it overflows */
 }
 
 
@@ -211,6 +229,7 @@ main{
     scale: 0.9;
     right: -20%;
 }
+
 
 
 /* TABLET RESPONSIVE */ 
@@ -233,6 +252,8 @@ main{
 @media (max-width: 768px) {
     header {
         padding: 1rem 0.1em;
+        position: absolute; 
+        z-index: 10;             
     }
 
     nav{
@@ -249,9 +270,14 @@ main{
         margin-top: 25rem;
     }
     .robot-3d{
-        scale: 0.5;
-        top: -25%;
-        right: 0;
+        position: relative; 
+        scale: 0.35;
+        left: 30%; /* <-- Shifted more to the right */
+        /* position: absolute; Ensure positioning works */
+        /* position: relative;  or absolute/fixed */
+        position: absolute; 
+        z-index: 1000;         /* Higher z-index brings it in front */
+
     }
     .content {
         max-width: 30rem;
