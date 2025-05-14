@@ -76,7 +76,7 @@ nav a:hover{
     color: #a7a7a7;
 }
 
-.btn-signing {
+.btn-emailme {
     background-color: #a7a7a7;
     color: black;
     padding: 0.4rem 0.5rem;
@@ -89,7 +89,7 @@ nav a:hover{
 
 }
 
-.btn-signing:hover {
+.btn-emailme:hover {
     background-color: white;
 }
 
@@ -160,7 +160,7 @@ main{
 }
 
 
-.btn-get-started {
+.btn-expertise{
     text-decoration: none;
     border: 1px solid #2a2a2a;
     padding: 0.7rem 1.2rem;
@@ -174,11 +174,11 @@ main{
 }
 
 
-.btn-get-started:hover{
+.btn-expertise:hover{
     background-color: #1a1a1a;
 }
 
-.btn-signing-main {
+.btn-contact{
     text-decoration: none;
     background-color: lightgray;
     color: black;
@@ -189,7 +189,7 @@ main{
     transition: background-color 0.2s ease;
 }
 
-.btn-signing-main:hover {
+.btn-contact:hover {
     background-color: gray;
 }
 
@@ -279,7 +279,7 @@ main{
     header h1{
         font-size: 2rem;
     }
-    .btn-signing{
+    .btn-emailme{
         padding: 0.6rem 1.5rem;
     }
     
@@ -318,11 +318,11 @@ main{
         top: 86%;
         left: 9%;
     }
-    .btn-get-started{
+    .btn-expertise{
         font-size: 0.8rem;
         padding: 0.8rem 1.2reM;
     }
-    .btn-signing-main{
+    .btn-contact{
         font-size: 0.8rem;
         padding: 0.8rem 2rem;
     }
