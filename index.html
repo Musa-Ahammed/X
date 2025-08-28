@@ -16,8 +16,8 @@
         <header>
             <h1 class="logo">
                 <span data-aos="fade-down" data-aos-duration="1500">Hi, I am</span>
-                <span data-aos="fade-down" data-aos-duration="1500" data-aos-delay="300"> Musa</span>
-                <span data-aos="fade-down" data-aos-duration="1500" data-aos-delay="600"> Ahammed</span>
+                <!-- <span data-aos="fade-down" data-aos-duration="1500" data-aos-delay="300"> Musa</span> -->
+                <!-- <span data-aos="fade-down" data-aos-duration="1500" data-aos-delay="600"> Ahammed</span> -->
                 <span data-aos="fade-down" data-aos-duration="1500" data-aos-delay="900"> Mahin</span>
             </h1>
 
@@ -26,10 +26,15 @@
                     <a data-aos="fade-down" data-aos-duration="2500" href="#extracurricular">Extracurricular</a>
                     <a data-aos="fade-down" data-aos-duration="3000" href="#experience">Experience</a>
                     <a data-aos="fade-down" data-aos-duration="3500" href="#projects">Projects</a>
+                    <a data-aos="fade-down" data-aos-duration="2500" href="#skills">Skills</a>
+                    <a data-aos="fade-down" data-aos-duration="3000" href="#publications">Publications</a>
+                    <a data-aos="fade-down" data-aos-duration="3500" href="#research">Research</a>
+                    <a data-aos="fade-down" data-aos-duration="3500" href="#featured">Featured</a>
+                    <a data-aos="fade-down" data-aos-duration="3500" href="#gallery">Gallery</a>
                     <!-- <a href="#about-me">ABOUT ME</a> -->
 
                 </nav>
-            <button data-aos="fade-down" data-aos-duration="1500" class="btn-emailme">EMAIL ME</button>
+            <button data-aos="fade-down" data-aos-duration="1500" class="btn-emailme" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">EMAIL ME</button>
         </header>
         <main>
 
@@ -58,7 +63,7 @@
                 data-aos-delay="300"
                 data-aos-offset="0" data-aos-duration="3000" class="buttons">
                     <!-- <a href="#" class="btn-expertise">EXPERTISE &gt;</a> -->
-                    <button onclick="window.open('assets/CV/Musa_Ahammed_Mahin_CV.pdf', '_blank')" class="btn-expertise">VIEW CV </button>
+                    <button onclick="window.open('assets/CV/Musa Ahammed Mahin-CV.pdf', '_blank')" class="btn-expertise">VIEW CV </button>
                     <a href="#contact" class="btn-contact">CONTACT </a>
                 </div>
                 <div class = "greywolf">
@@ -108,18 +113,20 @@
 <!-- Achievements -->
 <!-- Achievements -->
 <section id="Achievements">
-  <h2>Achievements</h2>
+  <h2>Achievements 🏆 </h2>
 
   <!-- Top Achievement -->
   <div class="card highlight">
     <h3>⭐ IEEE TENCON 2023 Best Paper</h3>
     <p>Contributed to <em>Prosthetic Exo-Leg: A Multi-Functional Robotic Leg-Suit</em>, published in IEEE TENCON 2023. Awarded <strong>Best Paper</strong> for innovation in biomedical robotics.</p>
+    <img src="assets/CV/paper.jpg" alt="Prosthetic Project" class="card-image">
   </div>
 
   <!-- International Competition -->
   <div class="card highlight">
     <h3>🏆 University Rover Challenge (USA, 2020)</h3>
     <p>3rd Place as Electronics Team Lead of BRACU Mongol Tori. Led design, testing, and deployment of robotics systems on an international stage.</p>
+    <img src="assets/CV/urc-2020-brac-featured.jpeg" alt="MT 2020 Project" class="card-image">
   </div>
 
   <!-- National Robotics Awards -->
@@ -130,6 +137,7 @@
       <li>Runner-up – Soccer Bot Challenge, Bangladesh (2018)</li>
       <li>Best Design – Minesweeper Challenge, BRAC University (2021)</li>
       <li>Top Innovator – Line Following Robot (LFR) Competition, BRAC University (2020)</li>
+      <img src="assets/CV/3.png" alt="Prosthetic Project" class="card-image">
     </ul>
   </div>
 
@@ -203,29 +211,59 @@
 
 <!-- Publications -->
 <section id="publications">
-  <h2>Publications 📝</h2>
-  <div class="card">
-    <h3>Prosthetic Exo-Leg (IEEE TENCON 2023)</h3>
-    <p>Published paper on a multi-functional robotic exo-leg for transfemoral amputees. Awarded <strong>Best Paper</strong> at IEEE Region 10 Conference.</p>
-  </div>
+ <div class="card">
+<h2>Publications 📝</h2>
+
+  <h3>Prosthetic Exo-Leg: A Functional Robotic Leg Suit</h3>
+  <p>Robotic exo-leg for patients with transfemoral amputation. IEEE TENCON 2023 Best Paper.</p>
+  <p>
+    Published in <strong>IEEE TENCON 2023</strong>  
+    <br>
+    <a href="https://www.researchgate.net/publication/375851709_Prosthetic_Exo-Leg_A_Functional_Robotic_Leg_Suit_to_Assist_Patients_with_Transfemoral_Amputation" target="_blank">
+      🔗 View Publication
+      <img src="assets/CV/paper.jpg" alt="Prosthetic Project" class="card-image">
+    </a>
+  </p>
+
+</div>
+
 </section>
 
 <!-- Research & Academic Journey -->
-<section id="journey">
+<section id="research">
   <h2>Research & Academic Journey 👨🏻‍💻</h2>
-  <div class="card">
-    <h3>Prosthetic Exo-Leg (2022–2023)</h3>
+<div class="card">
+    <h3>Prosthetic Exo-Leg </h3>
     <p>Robotic exo-leg for patients with transfemoral amputation. IEEE TENCON 2023 Best Paper.</p>
-    <p><a href="https://github.com/Musa-Ahammed/Prosthetic-exo-leg-A-multi-functional-robotic-leg-suit-to-support-the-patient-with-transfemoral-amp" target="_blank">🔗 View on GitHub</a></p>
-  </div>
-  <div class="card">
-    <h3>Mine Finder Robot (2021)</h3>
-    <p>Arduino-based landmine detection robot with metal & ultrasonic sensors, LoRa/Bluetooth transmission, GPS tracking, and path mapping.</p>
-  </div>
-  <div class="card">
-    <h3>Soccer Bot (2019)</h3>
-    <p>Remote-controlled soccer robot using Bluetooth and motor controllers. Participated in international competitions.</p>
-  </div>
+    <p>
+        <a href="https://www.researchgate.net/publication/375851709_Prosthetic_Exo-Leg_A_Functional_Robotic_Leg_Suit_to_Assist_Patients_with_Transfemoral_Amputation" target="_blank">
+            🔗 View Publication
+            <img src="assets/CV/1.png" alt="Prosthetic Project" class="card-image">
+        </a>
+    </p>
+</div>
+<div class="card">
+    <h3>Mars Rover- Mongol Tori</h3>
+    <p>A semi-autonomous rover engineered for extraterrestrial terrain exploration with sensor fusion and robust navigation systems.</p>
+    <p>
+        <a href="https://github.com/Musa-Ahammed/Mars-Rover-A-to-Z" target="_blank">🔗 View on GitHub</a>
+        <img src="assets/CV/urc-2020-brac-featured.jpeg" alt="Prosthetic Project" class="card-image">
+    </p>
+</div>
+<div class="card">
+    <h3>Science Box for Mars</h3>
+    <p>Autonomous box designed to test soil & air for life detection on other planets.</p>
+    <p>
+        <a href="https://github.com/Musa-Ahammed/Science-Box-For-MARS" target="_blank">🔗 View on GitHub</a>
+    </p>
+</div>
+<div class="card">
+    <h3>Metal Detector</h3>
+    <p>Arduino Uno project detecting metallic contamination in meals, with LoRa-based data transmission.</p>
+    <p>
+        <a href="https://github.com/Musa-Ahammed/Metal-Detector" target="_blank">🔗 View on GitHub</a>
+    </p>
+</div>
 </section>
 
 <!-- Projects -->
@@ -235,36 +273,73 @@
 
   <!-- Top-Rated Project -->
   <div class="card highlight">
-    <h3>Prosthetic Exo-Leg (2022–2023) ⭐ Top Project</h3>
+    <h3>Prosthetic Exo-Leg  ⭐ Top Project</h3>
     <p>Robotic exo-leg for transfemoral amputees. Published in IEEE TENCON 2023 and awarded <strong>Best Paper</strong>.</p>
     <p><a href="https://github.com/Musa-Ahammed/Prosthetic-exo-leg-A-multi-functional-robotic-leg-suit-to-support-the-patient-with-transfemoral-amp" target="_blank">🔗 View on GitHub</a></p>
+    <img src="assets/CV/Poster Presentation.jpg" alt="Prosthetic Project" class="card-image">
   </div>
+  <div class="card">
+    <h3>Mars Rover- Mongol Tori</h3>
+    <p>A semi-autonomous rover engineered for extraterrestrial terrain exploration with sensor fusion and robust navigation systems.</p>
+    <p><a href="https://github.com/Musa-Ahammed/Mars-Rover-A-to-Z" target="_blank">🔗 View on GitHub</a></p>
+    <img src="assets/CV/URC 19 Certificate.jpeg" alt="Prosthetic Project" class="card-image">
 
+  </div>  
   <!-- Other Key Projects -->
   <div class="card highlight">
-    <h3>Mine Finder Robot (2021)</h3>
-    <p>Arduino-based landmine detection robot with metal & ultrasonic sensors, LoRa/Bluetooth transmission, GPS tracking, and path mapping. Used in competitions.</p>
+    <h3>Mine Finder Robot </h3>
+    <p>Microcontroller-based landmine detection robot with metal & ultrasonic sensors, LoRa/Bluetooth transmission, GPS tracking, and path mapping. Used in competitions.</p>
+    <p><a href="https://github.com/Musa-Ahammed/Mine-Finder" target="_blank">🔗 View on GitHub</a></p>
+
   </div>
 
   <div class="card highlight">
-    <h3>Soccer Bot (2019)</h3>
-    <p>Remote-controlled soccer-playing robot with HC-05 Bluetooth and motor controllers. Competed internationally.</p>
+    <h3>Soccer Bot </h3>
+    <p>Remote-controlled soccer-playing robot with RF based motor controllers. Competed internationally.</p>
+    <p><a href="https://github.com/Musa-Ahammed/Soccer-Bot" target="_blank">🔗 View on GitHub</a></p>
+    <img src="assets/CV/SBS.jpeg" alt="Prosthetic Project" class="card-image">
+
   </div>
 
   <!-- Additional Projects -->
   <div class="card">
     <h3>Metal Detector</h3>
-    <p>Arduino Uno project detecting metallic contamination in meals, with LoRa-based data transmission.</p>
+    <p>Microcontroller based low cost device to detect metal, with LoRa-based data transmission.</p>
+    <p><a href="https://github.com/Musa-Ahammed/Metal-Detector" target="_blank">🔗 View on GitHub</a></p>
+
   </div>
 
   <div class="card">
     <h3>Science Box for Mars</h3>
     <p>Autonomous box designed to test soil & air for life detection on other planets.</p>
+    <p><a href="https://github.com/Musa-Ahammed/Science-Box-For-MARS" target="_blank">🔗 View on GitHub</a></p>
+
   </div>
 
   <div class="card">
-    <h3>Mineceptor</h3>
+    <h3>Rescue Bot</h3>
     <p>Mini tank robot for delivering supplies in disaster zones and firefighting in unreachable areas.</p>
+    <p><a href="https://github.com/Musa-Ahammed/Rescue-Bot" target="_blank">🔗 View on GitHub</a></p>
+
+  </div>
+    <div class="card">
+    <h3>Flipper Battle Bot</h3>
+    <p>A high-torque combat robot designed with precision control, strategic maneuvering, and resilient mechanical architecture.</p>
+    <p><a href="https://github.com/Musa-Ahammed/Battle-Bot-Flipper" target="_blank">🔗 View on GitHub</a></p>
+    <img src="assets/CV/Battle Bot.jpeg" alt="Prosthetic Project" class="card-image">
+
+  </div>  
+  <!-- <div class="card">
+    <h3>Mars Rover- Mongol Tori</h3>
+    <p>A semi-autonomous rover engineered for extraterrestrial terrain exploration with sensor fusion and robust navigation systems.</p>
+    <p><a href="https://github.com/Musa-Ahammed/Mars-Rover-A-to-Z" target="_blank">🔗 View on GitHub</a></p>
+
+  </div>   -->
+  <div class="card">
+    <h3>LFR</h3>
+    <p>An intelligent IR-guided robot optimized for real-time path detection, speed control, and adaptive decision-making.</p>
+    <p><a href="https://github.com/Musa-Ahammed/LFR" target="_blank">🔗 View on GitHub</a></p>
+
   </div>
 </section>
 
@@ -292,7 +367,7 @@
   <div class="card">
     <p>I am an Electrical & Electronics Engineering graduate from BRAC University (2018–2023), specializing in robotics, embedded systems, and AI-driven automation.</p>
     <p>My research includes the award-winning <em>Prosthetic Exo-Leg</em> presented at IEEE TENCON 2023. Experienced in robotics competitions, IoT systems, and embedded design.</p>
-    <p>Passionate about building intelligent robotic systems and data-driven solutions. Expanding expertise in Data Analytics (SQL, Power BI, BigQuery, Metabase) for Business Intelligence roles.</p>
+    <p>Passionate about flexible sensor, biomedical engineering, robotics, UGV, UAV, and automation technologies. </p>
   </div>
 </section>
 
@@ -306,19 +381,27 @@
 
 <!-- Contact -->
 <section id="contact">
-  <h2>Contact 📍🗺️</h2>
-  <div class="card">
-    <h3>📧 Email</h3>
-    <p><a href="mailto:musa.ahammed.mahin@g.bracu.ac.bd">musa.ahammed.mahin@g.bracu.ac.bd</a></p>
-  </div>
-  <div class="card">
-    <h3>ℹ️ LinkedIn</h3>
-    <p><a href="https://linkedin.com/in/musa-ahammed-mahin" target="_blank">linkedin.com/in/musa-ahammed-mahin</a></p>
-  </div>
-  <div class="card">
-    <h3>🔗 GitHub</h3>
-    <p><a href="https://github.com/Musa-Ahammed" target="_blank">github.com/Musa-Ahammed</a></p>
-  </div>
+<h2>Contact 📍🗺️</h2>
+
+<div class="card">
+  <h3>📧 Email</h3>
+  <p><a href="mailto:musa.ahammed.mahin@g.bracu.ac.bd">musa.ahammed.mahin@g.bracu.ac.bd</a></p>
+</div>
+
+<div class="card">
+  <h3>ℹ️ LinkedIn</h3>
+  <p><a href="https://linkedin.com/in/musa-ahammed-mahin" target="_blank">linkedin.com/in/musa-ahammed-mahin</a></p>
+</div>
+
+<div class="card">
+  <h3>🔗 GitHub</h3>
+  <p><a href="https://github.com/Musa-Ahammed" target="_blank">github.com/Musa-Ahammed</a></p>
+</div>
+
+<div class="card">
+  <h3>📄 ResearchGate</h3>
+  <p><a href="https://www.researchgate.net/profile/Musa-Mahin?ev=hdr_xprf" target="_blank">researchgate.net/profile/Musa-Mahin</a></p>
+</div>
 </section>
 
 <!-- Resume Download & Preview -->
@@ -328,25 +411,91 @@
   <div class="card" style="padding:20px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
 
     <!-- Download Button -->
-    <a href="assets/CV/Musa_Ahammed_Mahin_CV.pdf" download="Musa_Ahammed_Mahin_CV.pdf"
+    <a href="assets/CV/Musa Ahammed Mahin-CV.pdf" download="Musa Ahammed Mahin-CV.pdf"
        style="display:inline-block; margin-bottom:15px; padding:10px 20px; 
               background:#007bff; color:white; text-decoration:none; border-radius:5px; font-weight:bold;">
       📄 Download My Resume
     </a>
 
     <!-- Embedded PDF Preview -->
-    <iframe src="assets/CV/Musa_Ahammed_Mahin_CV.pdf" width="100%" height="600px" 
+    <iframe src="assets/CV/Musa Ahammed Mahin-CV.pdf" width="100%" height="600px" 
             style="border:1px solid #ccc; border-radius:5px;">
       Your browser does not support PDFs. 
-      <a href="assets/CV/Musa_Ahammed_Mahin_CV.pdf" download="Musa_Ahammed_Mahin_CV.pdf">Download the CV instead</a>.
+      <a href="assets/CV/Musa Ahammed Mahin-CV.pdf" download="Musa Ahammed Mahin-CV.pdf">Download the CV instead</a>.
     </iframe>
 
   </div>
 </section>
 
 
+<section id="featured">
+  <h2>Featured 🎥</h2>
+  <div class="card">
+    <h3> Brac University ranks 3rd globally in URC 2020 competition - The Business Standard </h3>
+    <p>BU stands first among all Asian universities and it is the only Bangladeshi university to be enlisted with the finals qualifiers in URC 2020</p>
+    <p>
+        <a href="https://www.tbsnews.net/bangladesh/education/brac-university-ranks-3rd-globally-urc-2020-competition-76612" target="_blank">
+            🔗 View 
+            <img src="assets/CV/MT 2020.jpg" alt="Prosthetic Project" class="card-image">
+        </a>
+    </p>
+  </div>
+  <div class="card">
+    <h3> Brac University ranks 3rd in University Rover Challenge - Dhaka Tribune</h3>
+    <p>Michigan Mars Rover Team and Stanford Student Robotics of the United States stood first and second with 96 and 94 points respectively in the competition, held annually in the country's southern Utah state.</p>
+    <p>
+        <a href="https://www.dhakatribune.com/bangladesh/208611/brac-university-ranks-3rd-in-university-rover" target="_blank">
+            🔗 View 
+          
+        </a>
+    </p>
+  </div>
+
+  <div class="card">
+    <h3> Brac University ranks 3rd globally in URC2020 competition - The Financial Express </h3>
+    <p>Brac University (BU) Mongol-Tori rover has been ranked 3rd globally in this years University Rover Challenge (URC) 2020, after first ranked University of Michigan and runners up Stanford University.</p>
+    <p>
+        <a href="https://thefinancialexpress.com.bd/education/brac-university-ranks-3rd-globally-in-urc2020-competition-1588840049" target="_blank">
+            🔗 View 
+          
+        </a>
+    </p>
+  </div>
+
+</section>
+
+<section id="gallery">
+    <h2>Gallery 📸</h2>
+    <div class="gallery-container">
+        <img src="assets/CV/Battle Bot.jpeg" alt="Gallery Photo 8 " class="gallery-image">  
+        <img src="assets/CV/urc-2020-brac-featured.jpeg" alt="Gallery Photo 3" class="gallery-image">
+        <img src="assets/CV/BRACU SB.jpeg" alt="Gallery Photo 3" class="gallery-image">
+        <img src="assets/CV/3.png" alt="Gallery Photo 2" class="gallery-image">
+        <img src="assets/CV/IRC SB.jpeg" alt="Gallery Photo 4" class="gallery-image">
+        <img src="assets/CV/MT 2020.jpg" alt="Gallery Photo 1" class="gallery-image">
+        
+        <img src="assets/CV/IRC UZ.jpeg" alt="Gallery Photo 5" class="gallery-image">
+        <img src="assets/CV/IRC.jpeg" alt="Gallery Photo 6" class="gallery-image">
+        <img src="assets/CV/NSU SB.jpeg" alt="Gallery Photo 7" class="gallery-image">
+        <img src="assets/CV/NSU.jpeg" alt="Gallery Photo 3" class="gallery-image">
+        <img src="assets/CV/SBS.jpeg" alt="Gallery Photo 3" class="gallery-image">
+        <img src="assets/CV/paper.jpg" alt="Gallery Photo 3" class="gallery-image">
+        <img src="assets/CV/pp.jpeg" alt="Gallery Photo 3" class="gallery-image">
+        <img src="assets/CV/Poster Presentation.jpg" alt="Gallery Photo 3" class="gallery-image">
+        <img src="assets/CV/URC 19 Certificate.jpeg" alt="Gallery Photo 3" class="gallery-image">
+        <img src="assets/CV/1.png" alt="Gallery Photo 1" class="gallery-image">
+        <img src="assets/CV/featured.jpeg" alt="Gallery Photo 3" class="gallery-image">
+        <img src="assets/CV/urc2018.png" alt="Gallery Photo 3" class="gallery-image">
+        
+
+        
+    </div>
+</section>
+
+
+
     <!-- SS MM -->
-<!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.93/build/spline-viewer.js"></script> -->
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.93/build/spline-viewer.js"></script>
       
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
