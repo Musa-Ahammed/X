@@ -675,7 +675,7 @@ section p {
         display: flex;
         flex-direction: column;
         gap: 6px;
-        background: transparent;
+        background: white;
         border: none;
         cursor: pointer;
         padding: 6px;
