@@ -879,7 +879,15 @@ section p {
         left: 2%;
         z-index: 1050;
     }
+ #resume iframe {
+    height: 300px; /* smaller iframe for mobile */
+  }
 
+  #resume a {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
     nav{
         display: none;
     }
