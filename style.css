@@ -657,9 +657,7 @@ section p {
         white-space: normal;
         word-wrap: break-word;
     }
-
-
-    /*ipad responsive */ 
+/*ipad RESPONSIVE copied from laptop RESPONSIVE */ 
 @media (max-width: 1180px) {
     header {
         padding: 1rem 1.5rem;
@@ -795,6 +793,11 @@ section p {
     }
 }
 }
+
+
+
+
+
 
 /*laptop RESPONSIVE */ 
 @media (max-width: 1024px) {
