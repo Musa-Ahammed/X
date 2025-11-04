@@ -619,6 +619,9 @@ section p {
         font-size: 0.7rem; /* Maintain decreased font size */
     }
 
+        .btn-emailme {
+        display: none !important;
+    }
     /* .hamburger {
         display: none;
     } */
